@@ -1,3 +1,4 @@
+#pip install customtkinter rich packaging
 import customtkinter as ctk
 import json
 import time
@@ -405,3 +406,4 @@ if __name__ == "__main__":
     else:
         app = GameGUI(backend)
         app.mainloop()
+
